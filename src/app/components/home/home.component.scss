@@ -1,0 +1,129 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.title {
+    //margin: 60px 0 20px 60px;
+    font-size: 120px;
+    font-weight: bold;
+    line-height: 120px;
+    color: white;
+}
+.main-content {
+    display: flex;
+    flex-direction: row;
+    .left-column {
+        .title {
+            margin: 60px 0 20px 60px;
+        }
+        flex: 66;
+        height: 93vh;
+        background: url("/assets/Asset 104.svg");
+        background-size: cover;
+        position: relative;
+        .subtitle {
+            margin-left: 60px;
+            margin-right: 30px;
+            font-size: 20px;
+            color: white;
+        }
+        .main-img {
+            width: 500px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    }
+    .right-column {
+        flex: 34;
+        height: 93vh;
+        display: flex;
+        flex-direction: column;
+
+        .right-column-item {
+            height: 31vh;
+            padding: 20px;
+            .section-title {
+                font-size: 40px;
+                line-height: 40px;
+                font-weight: bold;
+                color: white;
+            }
+            button {
+                color: white;
+                margin-top: 30px;
+                background-color: rgba(197, 192, 130, 0.29);
+            }
+            &.item1 {
+                background: url("/assets/Asset 105.svg");
+                background-size: cover;
+                position: relative;
+                img {
+                    width: 300px;
+                    position: absolute;
+                    bottom: -15px;
+                    right: 0;
+                }
+            }
+            &.item2 {
+                background: url("/assets/Asset 111.svg");
+                background-size: cover;
+                position: relative;
+                overflow: hidden;
+                img {
+                    width: 220px;
+                    position: absolute;
+                    bottom: -10px;
+                    right: 0;
+                }
+            }
+            &.item3 {
+                background: url("/assets/Asset 114.svg");
+                background-size: cover;
+                position: relative;
+                overflow: hidden;
+                img {
+                    width: 200px;
+                    position: absolute;
+                    bottom: -50px;
+                    right: 40px;
+                }
+            }
+        }
+    }
+}
+
+.about-us {
+    background: url("/assets/Asset 118.svg");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 40px 0;
+    .title {
+        margin-left: 30px;
+    }
+
+    .about-us-text {
+        color: #4d4d4d;
+        margin-right: 30px;
+    }
+}
+
+.contact-us {
+    background: url("/assets/Asset 106.svg");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 40px;
+
+    padding-bottom: 140px;
+    .title {
+        margin-left: 30px;
+    }
+
+    .contact-us-text {
+        color: #4d4d4d;
+    }
+}

@@ -1,0 +1,26 @@
+
+.toolbar {
+    position: fixed;
+    height: 80px;
+    background-color: #252525;
+    color: white;
+    bottom: 0;
+    .button-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        button {
+            color: white;
+        }
+        .vertical-line {
+            height: 50px;
+            margin: 0 16px;
+            width: 1px;
+            background-color: #4d4d4d;
+        }
+    }
+
+    .spacer {
+        flex: 1 1 auto;
+    }
+}

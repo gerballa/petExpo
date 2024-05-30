@@ -1,0 +1,53 @@
+<div class="container">
+    <div class="main-content">
+        <div class="info">
+            <img [src]="pet?.image" alt="pet image">
+            <div>
+                <h1>{{ pet?.name }}</h1>
+                <p>{{ pet?.description }}</p>
+                <ul>
+                    @switch (pet?.type) {
+                        @case ('cats') {
+                            <li>Color: {{ pet?.additionalInfo.colors }}</li>
+                            <li>Origin: {{ pet?.additionalInfo.origin }}</li>
+                            <li>Temperament: {{ pet?.additionalInfo.temperament }}</li>
+                        }
+                        @case ('dogs') {
+                            Temperament:
+                            {{ pet?.additionalInfo.temperament }}
+                            Color:
+                            {{ pet?.additionalInfo.colors }}
+                            Origin:
+                            {{ pet?.additionalInfo.origin }}
+                            Breed group:
+                            {{ pet?.additionalInfo.breed_group }}
+                            Size:
+                            {{ pet?.additionalInfo.size }}
+                            Lifespan:
+                            {{ pet?.additionalInfo.lifespan }}
+                        }
+                        @case ('birds') {
+                            Diet:
+                            {{ pet?.additionalInfo.diet }}
+                            Family:
+                            {{ pet?.additionalInfo.family }}
+                            Habitat:
+                            {{ pet?.additionalInfo.habitat }}
+                            Place of found:
+                            {{ pet?.additionalInfo.place_of_found }}
+                            Species:
+                            {{ pet?.additionalInfo.species }}
+                            Weight in kg:
+                            {{ pet?.additionalInfo.weight_kg }}
+                            Wingspan in cm:
+                            {{ pet?.additionalInfo.wingspan_cm }}
+                        }
+                    }
+                </ul>
+
+                <button mat-button style="color: white" (click)="goBack()">Go back</button>
+            </div>
+        </div>
+
+    </div>
+</div>
