@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Live demo
 
-You can view this application by visiting this url: `https://pet-expo1.web.app`.
+You can view this application by visiting this url: https://pet-expo1.web.app.
 
 ## Overview
 
@@ -28,9 +28,6 @@ search for pets—cats, dogs, or birds—and access detailed information about e
     - *Additional API Call:* Retrieves and displays more detailed information from another endpoint of the public animal
       API.
 
-## Live demo
-
-You can view this application by visiting this url: `https://pet-expo1.web.app`
 
 ## Development server
 
