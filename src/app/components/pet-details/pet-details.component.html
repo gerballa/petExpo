@@ -13,34 +13,21 @@
                             <li>Temperament: {{ pet?.additionalInfo.temperament }}</li>
                         }
                         @case ('dogs') {
-                            Temperament:
-                            {{ pet?.additionalInfo.temperament }}
-                            Color:
-                            {{ pet?.additionalInfo.colors }}
-                            Origin:
-                            {{ pet?.additionalInfo.origin }}
-                            Breed group:
-                            {{ pet?.additionalInfo.breed_group }}
-                            Size:
-                            {{ pet?.additionalInfo.size }}
-                            Lifespan:
-                            {{ pet?.additionalInfo.lifespan }}
+                            <li>Temperament: {{ pet?.additionalInfo.temperament }}</li>
+                            <li>Color: {{ pet?.additionalInfo.colors }}</li>
+                            <li>Origin: {{ pet?.additionalInfo.origin }}</li>
+                            <li>Breed group: {{ pet?.additionalInfo.breed_group }}</li>
+                            <li>Size: {{ pet?.additionalInfo.size }}</li>
+                            <li>Lifespan: {{ pet?.additionalInfo.lifespan }}</li>
                         }
                         @case ('birds') {
-                            Diet:
-                            {{ pet?.additionalInfo.diet }}
-                            Family:
-                            {{ pet?.additionalInfo.family }}
-                            Habitat:
-                            {{ pet?.additionalInfo.habitat }}
-                            Place of found:
-                            {{ pet?.additionalInfo.place_of_found }}
-                            Species:
-                            {{ pet?.additionalInfo.species }}
-                            Weight in kg:
-                            {{ pet?.additionalInfo.weight_kg }}
-                            Wingspan in cm:
-                            {{ pet?.additionalInfo.wingspan_cm }}
+                            <li>Diet: {{ pet?.additionalInfo.diet }}</li>
+                            <li>Family: {{ pet?.additionalInfo.family }}</li>
+                            <li>Habitat: {{ pet?.additionalInfo.habitat }}</li>
+                            <li>Place of found: {{ pet?.additionalInfo.place_of_found }}</li>
+                            <li>Species: {{ pet?.additionalInfo.species }}</li>
+                            <li>Weight in kg: {{ pet?.additionalInfo.weight_kg }}</li>
+                            <li>Wingspan in cm: {{ pet?.additionalInfo.wingspan_cm }}</li>
                         }
                     }
                 </ul>

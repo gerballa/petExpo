@@ -2,6 +2,29 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
 
+### Pet Expo Web App
+
+*Overview:*
+Pet Expo is an Angular-based web application designed as part of a hiring process assignment. The app allows users to search for pets—cats, dogs, or birds—and access detailed information about each pet.
+
+*Features:*
+
+1. *Homepage:*
+    - *Main Section:* Introduces users to the app and provides options to search for cats, dogs, or birds.
+    - *About Us:* Provides information about the organization or purpose behind the Pet Expo app.
+    - *Contact Us:* Contains contact details and a form for users to reach out with inquiries or feedback.
+
+2. *Search Page:*
+    - *Reusable Design:* A single search page is used for all three types of animals (cats, dogs, birds).
+    - *API Integration:* Fetches and displays results from a public animal API based on user search criteria.
+
+3. *Details Page:*
+    - *See More Functionality:* Users can click "see more" on any search result to view detailed information about the pet.
+    - *Additional API Call:* Retrieves and displays more detailed information from another endpoint of the public animal API.
+
+## Live demo
+You can view this application by visiting this url: `https://pet-expo1.web.app`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
