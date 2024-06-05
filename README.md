@@ -23,7 +23,7 @@ Pet Expo is an Angular-based web application designed as part of a hiring proces
     - *Additional API Call:* Retrieves and displays more detailed information from another endpoint of the public animal API.
 
 ## Live demo
-You can view this application by visiting this url: `https://pet-expo1.web.app`
+You can view this application by visiting this url: https://pet-expo1.web.app
 
 ## Development server
 
